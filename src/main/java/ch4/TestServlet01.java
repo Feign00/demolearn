@@ -11,13 +11,11 @@ import java.io.IOException;
 public class TestServlet01 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
         resp.getWriter().println("1145141919810");
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPost(req, resp);
-        resp.getWriter().println("1145141919810");
+        resp.getWriter().println("POST request received: 1145141919810");
     }
 }
