@@ -26,7 +26,7 @@ public class OnlineUserListener implements HttpSessionListener, ServletContextLi
         onlineUsers.add(session.getId());
         context.setAttribute("onlineUsers", onlineUsers);
     }
-
+//456
     @Override
     public void sessionDestroyed(HttpSessionEvent se) {
         HttpSession session = se.getSession();

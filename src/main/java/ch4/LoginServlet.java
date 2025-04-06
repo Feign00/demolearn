@@ -20,7 +20,7 @@ public class LoginServlet extends HttpServlet {
             response.sendRedirect("login.jsp");
         }
     }
-
+//1
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.sendRedirect("login.jsp");
     }

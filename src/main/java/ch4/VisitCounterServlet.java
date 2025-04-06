@@ -13,7 +13,7 @@ import java.io.PrintWriter;
 public class VisitCounterServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        // 获取ServletContext对象
+        // 获取ServletContext对象1
         ServletContext context = getServletContext();
 
         // 获取当前的访问计数112233

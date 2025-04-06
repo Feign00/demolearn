@@ -28,7 +28,7 @@ public class ChatServlet extends HttpServlet {
 
         response.sendRedirect("chat.jsp");
     }
-
+//11
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.sendRedirect("chat.jsp");
     }
