@@ -10,7 +10,7 @@ public class RequestServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request,
                          HttpServletResponse response)
             throws ServletException, IOException {
-        // 设置请求域中的属性
+        // 设置请求域中的属性12314564897
         request.setAttribute("username", "离着");
         // 将请求转发到 ResultServlet
         request.getRequestDispatcher("/result").forward(request, response);

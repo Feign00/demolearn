@@ -10,7 +10,7 @@ public class ResultServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request,
                          HttpServletResponse response)
             throws ServletException, IOException {
-        // 设置响应内容类型
+        // 设置响应内容类型123465789
         response.setContentType("text/html;charset=utf-8");
         // 从请求域中获取 username 属性
         String username = (String) request.getAttribute("username");
